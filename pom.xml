@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.12.150.200:9000/</sonar.host.url>
+		<sonar.host.url>http://http://18.217.21.6:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Google releases Repository</name>
-	      <url>http://3.12.120.53:9980/SSJL-ECOMMERCE-TECH/repository/Google-releases/</url>
+	      <url>http://13.59.233.73:9980/SSJL-ECOMMERCE-TECH/repository/Google-Dev/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Google Snapshot Nexus Repository </name>
-	      <url>http://3.12.120.53:9980/SSJL-ECOMMERCE-TECH/repository/Google-snapshot/</url>
+	      <url>http://13.59.233.73:9980/SSJL-ECOMMERCE-TECH/repository/Google-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
